@@ -3,7 +3,6 @@
 int main() {
     int firstTerm, commonDifference, numTerms;
 
-    // Prompt user for input
     printf("Enter the first term: ");
     scanf("%d", &firstTerm);
 
@@ -13,7 +12,6 @@ int main() {
     printf("Enter the number of terms: ");
     scanf("%d", &numTerms);
 
-    // Display the series
     printf("Arithmetic Series: ");
 
     for (int i = 0; i < numTerms; ++i) {
